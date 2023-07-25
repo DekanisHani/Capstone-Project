@@ -1,0 +1,56 @@
+/* Home.css */
+.fullscreen-carousel {
+    position: relative;
+}
+
+.carousel-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.button{
+    text-align: center;
+    width: 50%;
+    background-color: rgb(194, 118, 118);
+    border: none;
+    margin: auto;
+}
+
+.button:hover{
+    background-color: rgb(165, 89, 89);
+}
+
+.button-container {
+    background-color: beige;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.social-icons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}

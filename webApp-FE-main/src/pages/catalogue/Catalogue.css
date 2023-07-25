@@ -1,0 +1,7 @@
+.card {
+    border: solid rgb(228, 171, 171);
+}
+
+.card:hover{
+    transform: scale(1.08)
+}
