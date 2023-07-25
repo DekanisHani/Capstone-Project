@@ -125,7 +125,7 @@ function Catalogue() {
                     <Row className="g-4" lg={4} md={2}>
                         {products.map((prod: Product) => (
                             <Col key={prod.id}>
-                                <Card key={prod.id} className="mb-2 h-100 card">
+                                <Card key={prod.id} className="mb-2 h-100 card123">
                                     <Card.Img variant="top" src={`categories/${prod.type}.jpeg`} className="h-50"/>
                                     <Card.Body>
                                         <Card.Title>{prod.name}</Card.Title>
@@ -202,6 +202,15 @@ function Catalogue() {
         </Container>
         <footer className="footer">
         <Container>
+            <div>
+                <Row> 
+                    <h5>Contacts:</h5><br/>   
+                    
+                    <a href="tel:+061234567" className="text-decoration-none"><i className="bi bi-telephone-fill"></i> 061234567</a>
+                    <a href="mailto:albaforniture@gmail.com" className="text-decoration-none"><i className="bi bi-envelope-fill"></i> Albaforniture@gmail.com</a>
+                                   
+                </Row>
+            </div>
           <div className="social-icons">
             <a href={"#facebook"}>
               <i className="bi bi-facebook"></i>

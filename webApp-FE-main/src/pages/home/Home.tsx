@@ -76,9 +76,18 @@ function Home() {
         <Row>
           <Button href={"/catalogue"} className="my-5 py-3 fs-3 button">Check our catalogue</Button>
         </Row>
-      </Container>
+      
       <footer className="footer">
         <Container>
+        <div>
+                <Row> 
+                    <h5>Contacts:</h5><br/>   
+                    
+                    <a href="tel:+061234567" className="text-decoration-none"><i className="bi bi-telephone-fill"></i> 061234567</a>
+                    <a href="mailto:albaforniture@gmail.com" className="text-decoration-none"><i className="bi bi-envelope-fill"></i> Albaforniture@gmail.com</a>
+                                   
+                </Row>
+            </div>
           <div className="social-icons">
             <a href={"#facebook"}>
               <i className="bi bi-facebook"></i>
@@ -93,6 +102,7 @@ function Home() {
           &copy; {new Date().getFullYear()} All rights reserved | Design by{" ALBA FORNITURE"}
         </Container>
       </footer>
+      </Container>
     </>
   );
 }

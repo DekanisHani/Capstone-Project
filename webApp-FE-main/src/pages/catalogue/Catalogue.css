@@ -1,7 +1,11 @@
-.card {
+.card123 {
     border: solid rgb(228, 171, 171);
 }
 
-.card:hover{
+.card123:hover{
     transform: scale(1.08)
+}
+
+footer{
+    background-color: #eccfcf;
 }

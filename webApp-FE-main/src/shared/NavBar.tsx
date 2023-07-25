@@ -26,6 +26,7 @@ function NavBar() {
                 <Nav className="me-auto">
 
                     <Nav.Link onClick={() => history.push('/')} active>Home</Nav.Link>
+                    <Nav.Link onClick={() => history.push('/aboutUs')} active>About Us</Nav.Link>
                     <Nav.Link onClick={() => history.push('/catalogue')}>Catalogue</Nav.Link>
                 </Nav>
                 <Nav>

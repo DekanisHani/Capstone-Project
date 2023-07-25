@@ -7,6 +7,7 @@ import Register from './pages/auth/Register'
 import Catalogue from './pages/catalogue/Catalogue'
 import ErrorPage from "./pages/error/Error";
 import Layout from "./shared/Layout";
+import AboutUs from './pages/AboutUs/AboutUs'
 
 const Routes = () => {
     return (
@@ -14,6 +15,7 @@ const Routes = () => {
             <Layout>
                 <Switch>
                     <Route path={[ '/', '/home' ]} component={Home} exact/>
+                    <Route path={'/aboutUs'} component={AboutUs} exact/>
                     <Route path={'/register'} component={Register} exact/>
                     <Route path={'/login'} component={Login}/>
                     <PrivateRoute path={'/catalogue'} component={Catalogue} loginPath={'/login'} exact/>
